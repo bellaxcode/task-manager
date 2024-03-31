@@ -8,7 +8,7 @@ const mongoose = require('mongoose')
 app.set('view engine' , 'ejs')
 app.use(express.static('public'))
 app.use(express.urlencoded({extended:true}))
-const dburl = 'mongodb://127.0.0.1:27017/taskManager'
+const dburl = 'mongodb+srv://mohamedbella235:zBag2QfuadJmYv6S@neoxrbot.xxdeinp.mongodb.net/?retryWrites=true&w=majority&appName=neoxrbot'
 mongoose.connect(dburl  , {
     useNewUrlParser : true,
     useUnifiedTopology: true
